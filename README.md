@@ -107,37 +107,6 @@ com.example.va40
   * `minSdk`: 31 (建議測試於 Android 12+ 模擬器或實體機)
   * `targetSdk`: 31
 
----
-
-## 🚀 快速開始 (Getting Started)
-
-### 1. 取得專案原始碼
-```bash
-git clone <repository-url>
-cd My-APP-main
-```
-
-### 2. 使用 Android Studio 開啟
-1. 開啟 **Android Studio**。
-2. 選擇 **File -> Open...** 並選取本專案根目錄。
-3. 等待 Gradle 專案自動同步完成 (Gradle Sync)。
-
-### 3. 編譯與建置
-* **指令列編譯 Debug APK**:
-  ```bash
-  # Windows CMD / PowerShell
-  .\gradlew.bat assembleDebug
-
-  # macOS / Linux
-  ./gradlew assembleDebug
-  ```
-  產生的 APK 位於：`app/build/outputs/apk/debug/app-debug.apk`。
-
-### 4. 部署與執行
-* 連接已啟用「USB 偵錯」的 Android 裝置（Android 12 / API 31 以上）或啟動 AVD 模擬器。
-* 點擊 Android Studio 工具列上的 **Run (綠色三角形)** 即可安裝並啟動 App。
-
----
 
 ## 💡 未來優化與擴充建議 (Roadmap)
 
